@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Registration Form</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #fff;
+
+        }
+
+        input {
+            border: 0px solid brown;
+            border-radius: 10px;
+            padding-left: 80px;
+        }
+
+        label {
+            padding-left: 15px;
+            padding-right: 15px;
+            flex-direction: column;
+        }
+
+        h1 {
+            padding-right: 180px;
+            font-size: 40px;
+            font-weight: 1200;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        p {
+            font-size: 20px;
+            font-style: normal;
+        }
+
+        .form {border: 20px;
+            border-radius: 120px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        img{padding-left: 140px;}
+
+        button {
+            border: 10px;
+            border-radius: 50px;
+            padding-top: 1%;
+            padding-bottom: 1%;
+            width: 600px;
+            color: #fff;
+            background-color: brown;
+        }
+
+        select {
+            border: 10px;
+            border-radius: 50px;
+            padding-top: 1%;
+            padding-bottom: 1%;
+            padding-left: 90px;
+        }
+
+        option {
+            border: 10px;
+            border-radius: 50px;
+            color: brown;
+            background-color: rgb(255, 255, 255);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="form">
+        <h1>Registration Form</h1><br>
+        <form>
+            <p> <img src="https://th.bing.com/th/id/OIP.lkVN1WDlcV2jQCq-9LT7-wHaIJ?pid=ImgDet&rs=1" height="50px" width="50px"><br>
+        </p>
+           
+
+
+            <label>Username : <input type="text" value="Prasanga741" /></label><br>
+            <br><label>Email : <input type="text" value="prasanga@gmail.com" /></label><br>
+
+
+
+            <br><label>Password : <input type="password" value="raman741" /></label>
+
+
+            <br>
+            <br>
+            <p style="padding-left: 20px; ">Please check all the emotion that apply to you?</p>
+
+
+
+            <br><label><input type="checkbox" value="male" /> Angry
+            </label><br>
+
+            <label><input type="checkbox" value="Sad" /> Sad
+            </label><br>
+            <label><input type="checkbox" value="Happy" /> Happy
+            </label><br>
+            <label><input type="checkbox" value="Ambivalent" /> Ambivalent
+            </label>
+            <br>
+
+            <br>
+
+
+            <br>
+            <p style="padding-left: 20px;">How satisfied were you with our service?</p>
+
+
+            <br><label><input type="radio" name="gender" value="male" /> Very satisfied
+            </label><br>
+            <label><input type="radio" value="Satisfied" /> Satisfied
+            </label><br>
+
+            <label><input type="radio" value="Didn't care" /> Didn't care
+            </label><br>
+            <label><input type="radio" value="Dissatisfied" /> Dissatisfied
+            </label><br>
+            <label><input type="radio" value="Very dis-satisfied" /> Very dis-satisfied
+            </label>
+            <br>
+            <br>
+            <label>Comments: <textarea cols="3" rows="3"></textarea>
+            </label><br><br>
+
+            <br><label> Bio photo:<input type="file" name="filename"><br></label>
+            <br><br>
+            <label>
+                Country: <select>
+                    <option value="county">Select a country</option>
+                    <option value="Nepal">Nepal</option>
+                    <option value="USA">USA</option>
+                </select>
+            </label><br><br>
+
+
+            <br><button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
