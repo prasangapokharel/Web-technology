@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #ffff;
+        }
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 20px 5%;
+            background-color: transparent;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .navbar {
+            
+            flex-direction: row;
+            margin-top: 30px;
+        }
+
+        .navbar a {
+        
+            flex-direction: row;
+            font-size: 50px;
+            text-decoration: none;
+            font-weight: 500;
+            color:#fff;
+            margin-left: 40px;
+            
+            margin-right: 10px;
+            transition: 0.3;
+        }
+        li{
+            
+            list-style-type:none;
+           
+        }
+        .navbar div{
+            background-color: #000;
+            border: 10px;
+            border-radius: 12px;
+            width: 280px;
+            transition: 0.3;
+            
+        }
+
+        .navbar a:hover {
+            color: #00abf0;
+          }
+      
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+           <div><li><a href="#">Dashboard</a></li></div> <br>
+          <div> <li><a href="#">Contact</a></li></div><br> 
+           <div><li><a href="#">About</a></li></div> 
+        </nav>
+    </header>
+</body>
+</html>

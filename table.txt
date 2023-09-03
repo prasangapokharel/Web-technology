@@ -1,0 +1,6 @@
+<!Doctype html>
+<html>
+<head>
+<title>Table</title>
+</head>
+</html>
