@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE students>
+<students>
+  <student>
+    <name>Prasanga</name>
+    <address type="permanent">Inaruwa-1, Sunsari</address>
+    <address type="temporary">Itahari-6</address>
+    <phone>981138848</phone>
+    <website>prasanga.com</website>
+  </student>
+  <student>
+    <name>Ashish</name>
+    <address type="permanent">789 Main St, City, Country</address>
+    <phone>9876543210</phone>
+    <website>ashish.com</website>
+  </student>
+</students>
