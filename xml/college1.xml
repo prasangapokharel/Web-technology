@@ -1,0 +1,27 @@
+<college>
+<student>
+<studentname>
+<firstname>Ashish</firstname>
+<lastname>Khadka</lastname>
+</studentname>
+
+
+<major>Computer Science</major>
+
+<coursesEnrolled>BCA</coursesEnrolled>
+
+<academicStanding>Bachelore</academicStanding>
+
+<personalInfo>
+<phone>981134885</phone>
+<address>
+<city>Itahari</city>
+<state>itahari</state>
+<pin>5670</pin>
+</address>
+<email>prasanga@gmail.com</email>
+
+</personalInfo>
+
+</student>
+</college>
