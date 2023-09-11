@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE TVSCHEDULE[
+
+<!ELEMENT TVSCHEDULE (channel+)>
+
+<!ELEMENT channel (banner, Day+)>
+
+<!ELEMENT banner (#PCDATA)>
+
+<!ELEMENT Day (date, (holiday | programslot)+)>
+
+<!ELEMENT date (#PCDATA)>
+
+<!ELEMENT holiday (#PCDATA)>
+
+<!ELEMENT programslot (Time, Title, Description?)>
+
+
+<!ELEMENT Time (#PCDATA)>
+
+<!ELEMENT Title (#PCDATA)>
+
+<!ELEMENT Description (#PCDATA)>
+
+<!ATTLIST TVSCHEDULE Name CDATA #REQUIRED>
+
+<!ATTLIST channel Chan CDATA #REQUIRED>
+
+<!ATTLIST programslot Vtr CDATA #IMPLIED>
+
+<!ATTLIST title Rating CDATA #IMPLIED Language CDATA #IMPLIED>
+
+]>
+
+
+<TVSCHEDULE Name="MyTVSchedule">
+    <channel Chan="Channel1">
+        <banner>Channel 1 Banner</banner>
+        <Day>
+            <date>2023-09-11</date>
+            <programslot Vtr="123">
+                <Time>08:00 AM</Time>
+                <Title Rating="PG" Language="English">Program 1</Title>
+                <Description>This is Program 1.</Description>
+            </programslot>
+            <programslot>
+                <Time>09:00 AM</Time>
+                <Title>Program 2</Title>
+            </programslot>
+            <holiday>New Year's Day</holiday>
+        </Day>
+        <Day>
+            <date>2023-09-12</date>
+            <programslot>
+                <Time>10:00 AM</Time>
+                <Title Language="Spanish">Program 3</Title>
+                <Description>Program 3 Description.</Description>
+            </programslot>
+            <holiday>Labor Day</holiday>
+        </Day>
+    </channel>
+    <channel Chan="Channel2">
+        <banner>Channel 2 Banner</banner>
+        <Day>
+            <date>2023-09-11</date>
+            <programslot>
+                <Time>07:30 AM</Time>
+                <Title Rating="G">Program 4</Title>
+            </programslot>
+        </Day>
+    </channel>
+</TVSCHEDULE>
