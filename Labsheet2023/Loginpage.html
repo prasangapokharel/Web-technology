@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Login</title>
+<style>
+body {
+ /* background-image: url("bg.jpg"); */
+ background-color: rgb(21, 128, 199);
+ font-family: "Mukta", sans-serif;
+}
+
+.box {
+ align-items: center;
+ text-align: center;
+ border-radius: 20%;
+ box-sizing: content-box;
+}
+.login {
+ background-color: #fff;
+ border: 10px;
+ border-radius: 70px;
+ padding-top: 40px;
+ padding-bottom: 70px;
+ margin-top: 100px;
+ max-width: 700px;
+ margin-left: 32%;
+ box-shadow: 10px 10px rgb(255, 255, 255);
+ transition: 0.3s;
+}
+.login:hover {
+ box-shadow: 12px 15px rgb(255, 255, 255);
+}
+.login h1 {
+ text-align: center;
+ margin-bottom: 80px;
+ font-size: 60px;
+ color: rgb(11, 70, 26);
+}
+.box input {
+ margin-top: 1px;
+ height: 20px;
+ /* border: 2px solid #000000; */
+ /* border-radius: 10px; */
+ width: 36%;
+ transition: 0.3s;
+
+ color: #fff;
+
+ position: relative;
+ width: 70%;
+ background: rgb(255, 255, 255);
+ border: 1px solid rgb(11, 70, 26);
+ outline: none;
+ padding: 25px 10px 7.5px;
+ margin-left: 60px;
+ border-radius: 4px;
+ color: rgb(11, 70, 26);
+ font-weight: 500;
+ font-size: 1em;
+}
+.box input:hover {
+ background-color: rgb(255, 255, 255);
+ border-color: rgb(11, 70, 26);
+}
+.email {
+ margin-top: 0px;
+ padding-right: 60px;
+}
+.login {
+ color: rgb(0, 0, 0);
+}
+.rem label {
+ margin-right: 360px;
+ color: rgb(11, 70, 26);
+}
+.rem input {
+ max-width: 20px;
+ height: 15px;
+ margin-top: 20px;
+}
+h3 {
+ margin-right: 420px;
+}
+.psw {
+ margin-bottom: 0px;
+ padding-right: 60px;
+}
+
+.box a {
+ font-size: 20px;
+ font-family: "Mukta", sans-serif;
+ padding: 200px;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ background-color: rgb(6, 163, 45);
+ color: rgb(255, 255, 255);
+ text-decoration: none;
+ border: 2px;
+ border-radius: 30px;
+ font-weight: 800;
+ margin-left: 80px;
+ text-align: center;
+ margin-right: 50px;
+}
+p {
+ margin-right: 300px;
+}
+span {
+ padding: 1rem 6rem;
+ margin-top: 10px;
+ text-align: center;
+}
+ 
+</style>
+</head>
+
+<body>
+ <div class="login">
+ <h1>USER LOGIN</h1>
+ <div class="box">
+
+ <label>
+ <h3>Username:</h3><input class="email" type="text" placeholder="">
+ </label><br>
+ <label>
+ <h3>Password:</h3><input class="psw" type="password" placeholder="">
+ </label>
+ <br>
+ <div class="rem">
+ <label><input type="checkbox">Remember me</label>
+ </div>
+ <div class="reg">
+ <span>Forget Password?</span>
+ <!-- <span>Register</span> -->
+ </div>
+ <br><a href="#">Sign in</a>
+
+ </div>
+ </div>
+</body>
+
+</html>
