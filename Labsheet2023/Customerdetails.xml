@@ -1,0 +1,13 @@
+<customerDetails>
+ <customer>
+ <id>101</id>
+ <name>Prasanga</name>
+ <email>prasanga@gmail.com</email>
+ <phone>+977 981134779</phone>
+ <address>
+ <street>Ramanuj tole</street>
+ <city>Inaruwa</city>
+ <state>Sunsari</state>
+ <zipcode>51600</zipcode>
+ </address>
+ </customer>
