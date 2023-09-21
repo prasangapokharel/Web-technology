@@ -1,0 +1,26 @@
+<?xml-stylesheet type = "text/xsl" href = "employeeTest.xsl"?>
+<class>
+    <employe>
+        <name>harish khan</name>
+        <department>product management</department>
+        <jobTitle>salesman</jobTitle>
+        <salary>30000</salary>
+        <email>harishkhan@gmail.com</email>
+    </employe>
+
+    <employe>
+        <name>parish khan</name>
+        <department>sales management</department>
+        <jobTitle>salesman</jobTitle>
+        <salary>45000</salary>
+        <email>parishkhan@gmail.com</email>
+    </employe>
+    
+    <employe>
+        <name>narish khan</name>
+        <department>salesman</department>
+        <jobTitle>seller</jobTitle>
+        <salary>80000</salary>
+        <email>narish@gmail.com</email>
+    </employe>
+</class>
