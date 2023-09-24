@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Company>
+    <Employee>
+        <Username>JohnDoe</Username>
+        <Password>Aa123456</Password>
+        <Gender>male</Gender>
+        <Salary>35000</Salary>
+        <Post>Manager</Post>
+    </Employee>
+    <Employee>
+        <Username>JaneSmith</Username>
+        <Password>Bb987654</Password>
+        <Gender>female</Gender>
+        <Salary>45000</Salary>
+        <Post>Engineer</Post>
+    </Employee>
+    <Employee>
+        <Username>SamBrown</Username>
+        <Password>Cc234567</Password>
+        <Gender>other</Gender>
+        <Salary>30000</Salary>
+        <Post>Designer</Post>
+    </Employee>
+</Company>
